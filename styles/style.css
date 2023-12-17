@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    background-image: url('../img/samuel-girven-fqMu99l8sqo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    overflow: hidden;
+    overflow-y: visible;
+    
+    
+    
+}   
+header{
+    
+    color: #fff;
+    margin: 10px 10px;
+    text-align: center;
+}
+nav{
+    margin-top: 10px;
+}
+.glavni-meni{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.glavni-meni li{
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px white solid;
+    border-radius: 5px;  padding:  15px 15px;
+    
+}
+.glavni-meni li:hover{
+    background-color: rgb(76, 160, 190) ;   
+    transition:  0.5s ease-in;
+}
+.glavni-meni a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+           
+  
+     
+      
+}
+.glavni-meni li a{
+    width: 30px;
+    height: 30px;
+   
+ 
+  
+}
+.main-title{
+    width: 100%;
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+.main-title h1 {
+   
+    margin: 0px;
+    text-align: center;
+    
+    font-size: 6.25rem;
+    color: rgb(76, 160, 190) ;
+    letter-spacing: 5px;
+    text-shadow: 16px 22px 11px rgba(32, 64, 168, 0.8);
+  }
+
+.main-title p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.gif {
+    height: 40vh;
+    width: 20vw;
+
+}
+.podgif{
+    
+    color: #080404;
+    height: 40vh;
+    width: 20vw;
+    background: url(../img/white+arrow+gif.gif);
+}   
+.zasto-container{
+    text-align: center;
+    max-width: 800px;
+    margin: 200px auto;
+    margin-top: 30px;
+    padding: 20px;
+    
+
+}
+.zasto-container hr{
+    scale: 50%;
+    background-color: rgb(37, 150, 190) ;
+}
+.zasto-container h2{
+    color: rgb(37, 150, 190);
+    font-size: 4.1rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-shadow: 16px 22px 11px rgba(32, 64, 168, 0.8)
+}
+
+.zasto-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-shadow: 16px 22px 11px rgba(32, 64, 168, 0.8)
+}
+.zasto-container .kartice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+   
+    
+    
+
+    
+}
+.kartice{
+    margin-top: 130px;
+   
+}
+
+
+
+.kartice .kartica1,
+.kartice .kartica2,
+.kartice .kartica3,
+.kartice .kartica4 {
+    margin: 0px 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white; 
+    border-radius: 8px; 
+    
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.1s ease-in;
+    cursor: pointer;
+
+}
+.kartica1:hover,.kartica2:hover,.kartica3:hover,.kartica4:hover{
+    scale: 110%;
+    transition: 0.1s ease-in;
+    background: white;
+    color: black;
+    
+}
+
+
+
+
+.zasto-container .kartice img {
+    width: 300px;
+    height: 300 px;
+}
+    
+    
+
+.kartice h3{
+    color: #b3b0b0;
+    font-size: 20  px;
+    margin-top: 10px;
+
+}
+
+
+.zasto-container .kartice p{
+    color: #b3b0b0; 
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold   ;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrapper img{
+    height: auto;
+    width: 40px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
